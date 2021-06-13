@@ -1,4 +1,4 @@
-export default [
+const Terms = [
   "Açaí",
   "Apple",
   "Akee",
@@ -101,3 +101,4 @@ export default [
   "Tomato",
   "Zucchini",
 ];
+export default Terms;
