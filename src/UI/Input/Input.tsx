@@ -4,36 +4,25 @@ import styled from "styled-components";
 const InputElement = styled.input`
   display: block;
   padding: 0.5em 0.25em;
-  border: none;
   border-radius: 0.2em;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-weight: 300;
   display: block;
   appearance: none;
   outline: 0;
   border: 1px solid #65fffc;
-  width: 250px;
   background-color: #52a8a7;
-  border-radius: 3px;
-  padding: 10px 15px;
-  display: block;
   text-align: center;
-  font-size: 18px;
   color: white;
   &::placeholder {
     font-family: "Source Sans Pro", sans-serif;
     color: white;
-    font-weight: 300;
   }
-  font-weight: 300;
-  border: 1px solid fade(white, 40%);
-  background-color: fade(white, 20%);
   &:hover {
-    background-color: fade(white, 40%);
+    background-color: #5cc2c0;
   }
-
   &:focus {
     background-color: white;
-
     color: #000;
   }
 `;
