@@ -1,3 +1,13 @@
+# React fuzzy matching and autocomplete component
+
+This project uses fuzzy matching to autocomplete a text input field.
+It uses a simple made-from-scratch matching algorithm, an improved version of it could use results scores to order the list from the most relevant to the least relevant.
+
+The project has been created using create-react-app with Typescript template.
+The styles are created using Styled-components
+
+Tests are not currently implemented, a good strategy would be to add snapshot testing for UI components and unit tests for FuzzyMatchingHook.ts and getHighlightedText.tsx
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
