@@ -1,26 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
 body,
 html,
 .body {
-  height: 100%;
   width: 100%;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: radial-gradient(
-      closest-corner,
-      rgba(16, 47, 70, 0) 60%,
-      rgba(16, 47, 70, 0.26)
-    ),
-    linear-gradient(108deg, #26d0ce, #1a2980 90%);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  background: #265f5f;
 }
