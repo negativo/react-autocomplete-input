@@ -7,7 +7,6 @@ const InputElement = styled.input`
   border-radius: 0.2em;
   font-size: 1.2em;
   font-weight: 300;
-  display: block;
   appearance: none;
   outline: 0;
   border: 1px solid #65fffc;
